@@ -13,6 +13,7 @@ import { SocorristaComponent } from './components/socorrista/socorrista.componen
 import { AdminGeneralComponent } from './components/admin-general/admin-general.component';
 import { GestorPlayasComponent } from './components/gestor-playas/gestor-playas.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MenuComponent } from './components/menu/menu.component';
     SocorristaComponent,
     AdminGeneralComponent,
     GestorPlayasComponent,
-    MenuComponent
+    MenuComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { SocorristaComponent } from './components/socorrista/socorrista.componen
 import { AdminGeneralComponent } from './components/admin-general/admin-general.component';
 import { GestorPlayasComponent } from './components/gestor-playas/gestor-playas.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 const app_routes: Routes = [
@@ -14,6 +15,7 @@ const app_routes: Routes = [
 { path: 'admin', component: AdminGeneralComponent},
 { path: 'gestor', component: GestorPlayasComponent},
 { path: 'menu', component: MenuComponent},
+{ path: 'navbar', component: NavbarComponent},
 { path: '**', pathMatch: 'full', redirectTo: 'login' }
 ];
 
